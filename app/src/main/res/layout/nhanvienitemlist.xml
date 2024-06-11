@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvmanv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã NV: NVOO1"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ tên: Nguyễn Văn A"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/tvphongban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phòng Ban: Hành Chính"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/redostaff"
+            android:id="@+id/imgredo"
+            />
+        <ImageView
+            android:id="@+id/imgdelete"
+            android:layout_weight="1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/trashcan"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
